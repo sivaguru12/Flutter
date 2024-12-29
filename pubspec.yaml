@@ -1,0 +1,21 @@
+name: FLUTTER_APPLICATION_1
+description: A new Flutter project.
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  confetti: ^0.7.0
+  mailer: ^6.2.5
+  flutter_application_1: ^0.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
