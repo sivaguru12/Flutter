@@ -138,8 +138,8 @@ class _ScoreBoardPageState extends State<ScoreBoardPage> {
 
   // Function to send email after match is finished
   void sendEmail(String winner) async {
-    String username = 'sivagurusepak@gmail.com'; // Replace with your email
-    String password = 'mpwr sazn dbtz yvna'; // Replace with your App Password (not your email password)
+    String username = 'sivaguru@gmail.com'; // Replace with your email
+    String password = '###########'; // Replace with your App Password (not your email password)
 
     final smtpServer = gmail(username, password);
 
